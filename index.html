@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Earth</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+ <!--===================================================== the header=======================================================  -->
+ <div class="header-container">
+<div class="header">
+<nav class="navbar navbar-expand-lg navbar-dark">  
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">
+    <img src="images/logo (2).png" alt="logo" style="width:40px;">
+  </a> 
+  <a class="navbar-brand logo-name" href="#">Earth</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Donate">Donate</a>
+      </li>
+      <div class="dropdown div-dropdown">
+        <button type="button" class="btn btn-success text-success dropdown-toggle button-dropdown" data-toggle="dropdown">
+          Discover
+        </button>
+        <div class="dropdown-menu mt-3 mt-sm-0">
+          <a class="dropdown-item" href="#About Us">About Us</a>
+          <a class="dropdown-item" href="#Be Part Of The Solution">Be Part Of The Solution</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#Nature's Inspiration">Nature's Inspiration</a>
+          <a class="dropdown-item" href="#Contribute Your Vision">Contribute Your Vision</a>
+          <a class="dropdown-item" href="#Seasons">Seasons</a>
+          <a class="dropdown-item" href="#Join Us">Join Us</a>
+          <a class="dropdown-item" href="#">More...</a>
+        </div>
+      </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact Us">Contact Us</a>
+      </li>
+    </ul>
+    <nav class="navbar navbar-expand-sm target" style="margin-left : auto">
+      <form class="form-inline" action="/action_page.php" >
+        <input class="form-control mr-sm-2 d-flex justify-content-center" type="text" placeholder="Search">
+        <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Search</button> 
+        <button class="btn btn-success mt-3 mt-sm-0" type="button" data-toggle="modal" data-target="#myModal">Login</button>
+      </form>
+    </nav> 
+  </div>
+  </nav>
+<!-- </nav> -->
+</div><!-- header -->
+</div><!-- header-container -->
+<!-- i selected modal out from every thing -->
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Login</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <!-- the form in body -->
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" placeholder="Enter email" id="email">
+              <p>Connecting Through Nature</p>
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+            </div>
+            <div class="form-group form-check">
+                <div class="custom-control custom-switch">
+                  <input type="checkbox" class="custom-control-input" id="switch1">
+                  <label class="custom-control-label" for="switch1">Remember me</label>
+                </div>
+            </div>
+          </form>
+        </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-success" style="margin-right : auto">Submit</button>
+          <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- =============================================landing================================= -->
+<div class="landing">
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <!-- The slideshow -->
+  <div class="carousel-inner" >
+    <div class="carousel-item active">
+      <img src="images/1.jpg" alt="Los Angeles"  >
+      <div class="carousel-caption">
+        <h3>Mountain Majesty</h3>
+        <p>Mountain, Earth's giants, need our care. </p>
+        <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Search</button> 
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/2.jpg" alt="Chicago">
+      <div class="carousel-caption">
+        <h3>Our Blue Planet</h3>
+        <p>The Ocean, our life source, needs our protection. </p>
+        <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Search</button> 
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/5.jpg" alt="New York">
+      <div class="carousel-caption">
+        <h3>Serene Serenity</h3>
+        <p>Lakes, nature's mirrors, deserve our love.</p>
+        <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Search</button> 
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/4.jpg" alt="New York">
+      <div class="carousel-caption">
+        <h3>Winter's Warriors</h3>
+        <p>Even the strong need our protection.</p>
+        <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Search</button> 
+      </div>
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="icons">
+<ul>
+  <li><i class="fa-brands fa-square-facebook"></i></li>
+  <li><i class="fa-brands fa-square-whatsapp"></i></li>
+  <li><i class="fa-brands fa-square-twitter"></i></li>
+  <li><i class="fa-brands fa-linkedin"></i></li>
+  <li><i class="fa-brands fa-square-instagram"></i></li>
+</ul>
+</div><!-- icons -->
+<div class="landing"> <!-- landing -->
+<!-- =======================================================intro=============================== -->
+<div class="intro">
+<div class="container-fluid p-4 border intro-container ">
+  <h4>Our Planet, Our Responsibility</h4>
+  <p>Our planet, a fragile oasis in the vast cosmos, is facing unprecedented challenges. From climate change to pollution, deforestation to species extinction, the consequences of human activity are becoming increasingly severe. It is imperative that we take immediate action to protect our environment and ensure a sustainable future for generations to come. By embracing renewable energy, reducing our carbon footprint, conserving water, and protecting biodiversity, we can mitigate the impact of climate change and preserve the delicate balance of our ecosystem.</p>
+  <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Get Involved</button> 
+</div>
+<div class="line"></div>
+<div class="container-fluid p-4 border main-text" id="About Us"> 
+<h1>About Us</h1>
+</div>
+<!-- start accordion -->
+<div id="main">
+  <div class="container-fluid">
+<div class="accordion" id="faq" >
+                    <div class="card">
+                        <div class="card-header" id="faqhead1">
+                            <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#faq1"
+                            aria-expanded="true" aria-controls="faq1"> A Shared Vision</a>
+                        </div>
+
+                        <div id="faq1" class="collapse show" aria-labelledby="faqhead1" data-parent="#faq">
+                            <div class="card-body">
+                              We are a dedicated team of environmental enthusiasts passionate about preserving our planet. Our mission is to inspire and empower individuals to take action for a sustainable future. We believe that by working together, we can create a positive impact on the environment.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="faqhead2">
+                            <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq2"
+                            aria-expanded="true" aria-controls="faq2">Our Values</a>
+                        </div>
+
+                        <div id="faq2" class="collapse" aria-labelledby="faqhead2" data-parent="#faq">
+                            <div class="card-body">
+                              Our values are rooted in sustainability, innovation, and community. We strive to promote eco-friendly practices, support sustainable initiatives, and foster a sense of environmental responsibility.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="faqhead3">
+                            <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq3"
+                            aria-expanded="true" aria-controls="faq3">Our Goals</a>
+                        </div>
+                        <div id="faq3" class="collapse" aria-labelledby="faqhead3" data-parent="#faq">
+                            <div class="card-body">
+                              Our goals are to raise awareness about environmental issues, educate the public about sustainable living, and empower individuals to make informed choices. We aim to create a thriving and resilient planet for future generations.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+  </div>
+</div><!-- intro -->
+<!-- end accordion section -->
+
+<!-- ======================================strart form section========================= -->
+<div class="form-sec">
+  <div class="line" id="Be Part Of The Solution"></div>
+  <div class="container-fluid p-4 border main-text" > 
+    <h1>We Seek To Save Our Earth</h1>
+  </div>
+  <div class="container-fluid p-4 border form-sec-container ">
+    <h4><span>Be</span> Part Of The Solution</h4>
+    <button type="button" class="btn btn-success mr-2 mt-3 mt-sm-0" data-toggle="popover" data-content="Do Now" id="popover1">Take action!</button>
+    <div class="form-group">
+      <label for="comment" ></label>
+      <textarea class="form-control" rows="5" id="comment" placeholder="Write Here"></textarea>
+    </div>
+  </div>
+<!-- form number 2 -->
+  <div class="line" id="Donate"></div>
+  <div class="container-fluid p-4 border main-text" > 
+    <h1>Donations</h1>
+  </div>
+  <div class="container-fluid p-4 border form-sec-container ">
+    <h4><span>Volunteer</span> To Save The Earth</h4>
+        <button type="button" class="btn btn-success mr-2 mt-3 mt-sm-0" data-toggle="popover"  data-content="Do Now" id="popover2">Donate Now!</button>
+    <div class="form-group">
+      <label for="comment" ></label>
+      <textarea class="form-control" rows="5" id="comment" placeholder="Write Here"></textarea>
+    </div>
+  </div>
+  <div class="line"></div>
+</div><!-- form-sec -->
+<!-- ======================================end form section========================= -->
+<!-- ======================================start image section ================================ -->
+<div class="container-img" >
+<div class="img">
+  <div class="container-fluid p-4 border" >
+  </div> <!-- container -->
+ </div><!-- img -->
+ <div class="container-fluid p-4 border main-text" id="Nature's Inspiration"> 
+  <h1>Nature's Inspiration</h1>
+</div>
+</div><!-- container-img -->
+<!-- ======================================end image section ================================ -->
+<!-- ======================================start cards section ================================ -->
+  <!------- the first row----- -->
+  <div class="cards-sec" >
+  <div class="d-flex justify-content-around card-row flex-wrap">
+  <!-- card1 -->
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="images/card1.jpg" alt="Card image" style="width:95% ; height: 400px ; background-size:cover ; margin:auto">
+    <div class="card-body">
+      <div class="d-flex justify-content-between">
+        <h4 class="card-title">Explore The Depth</h4>
+        <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Discover</button> 
+      </div>
+      <p class="card-text">Dive deep, discover wonders</p>
+    </div>
+  </div>
+<!-- card2 -->
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="images/card2.jpg" alt="Card image" style="width:95% ; height: 400px ; background-size:cover ; margin:auto">
+    <div class="card-body">
+      <div class="d-flex justify-content-between">
+        <h4 class="card-title">Verdant Haven</h4>
+        <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Discover</button> 
+      </div>
+      <p class="card-text">Forest, nature's sanctuary</p>
+    </div>
+  </div>
+<!-- card3 -->
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="images/card3.jpg" alt="Card image" style="width:95% ; height: 400px ; background-size:cover ; margin:auto">
+    <div class="card-body">
+      <div class="d-flex justify-content-between">
+        <h4 class="card-title">Starlit Symphony</h4>
+        <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Discover</button> 
+      </div>
+      <p class="card-text">Sky, canvas of dreams</p>
+    </div>
+  </div>
+</div>
+<!-- -------the second row------- -->
+<div class="d-flex justify-content-around card-row flex-wrap">
+<!-- card1 -->
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="images/card4.jpg" alt="Card image" style="width:95% ; height: 400px ; background-size:cover ; margin:auto">
+    <div class="card-body">
+      <div class="d-flex justify-content-between">
+        <h4 class="card-title">Wild Kingdom</h4>
+        <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Discover</button> 
+      </div>
+      <p class="card-text">Animals, nature's wonders</p>
+    </div>
+  </div>
+<!-- card2 -->
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="images/card5.jpg" alt="Card image" style="width:95% ; height: 400px ; background-size:cover ; margin:auto">
+    <div class="card-body">
+      <div class="d-flex justify-content-between">
+        <h4 class="card-title">Cascading Beauty</h4>
+        <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Discover</button> 
+      </div>
+      <p class="card-text">Waterfalls, nature's music</p>
+    </div>
+  </div>
+<!-- card3 -->
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="images/card6.jpg" alt="Card image" style="width:95% ; height: 400px ; background-size:cover ; margin:auto">
+    <div class="card-body">
+      <div class="d-flex justify-content-between">
+        <h4 class="card-title">Serene Reflections</h4>
+        <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Discover</button> 
+      </div>
+      <p class="card-text">Lakes, nature's mirrors</p>
+    </div>
+  </div>
+</div>
+<!-- -------the third row------- -->
+<div class="d-flex justify-content-around card-row flex-wrap">
+  <!-- card1 -->
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="images/card7.jpg" alt="Card image" style="width:95% ; height: 400px ; background-size:cover ; margin:auto">
+      <div class="card-body">
+        <div class="d-flex justify-content-between">
+          <h4 class="card-title">Timeless Giants</h4>
+          <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Discover</button> 
+        </div>
+        <p class="card-text">Trees, Earth's ancient guardians</p>
+      </div>
+    </div>
+  <!-- card2 -->
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="images/card8.jpg" alt="Card image" style="width:95% ; height: 400px ; background-size:cover ; margin:auto">
+      <div class="card-body">
+        <div class="d-flex justify-content-between">
+          <h4 class="card-title">Majestic Peaks</h4>
+          <button class="btn btn-success mr-2 mt-3 mt-sm-0" type="submit">Discover</button> 
+        </div>
+        <p class="card-text">Mountains, Earth's backbone</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ======================================end cards section ================================ -->
+<!-- ==============================================start secon image section===================== -->
+<div class="container-img2">
+  <div class="img2">
+    <div class="container-fluid p-4 border">
+    </div> <!-- container -->
+   </div><!-- img2 -->
+   <div class="line"></div>
+   <div class="container-fluid p-4 border main-text" id="Contribute Your Vision"> 
+    <h1>Contribute Your vision</h1>
+  </div>
+  </div><!-- container-img2 -->
+<!-- ==============================================end secon image section===================== -->
+<!-- ================================================start data section==================== -->
+<div class="data-sec">
+  <div class="d-flex justify-content-around card-row flex-wrap">
+    <div class="card card1" style="width:350px" >
+      <img class="card-img-top main-img" src="images/img0.jpg" alt="Card image cap">
+      <div class="card-img-overlay">
+        <div class="top-content">
+        <h5>Share Your Story</h5>
+        <i class="fa-regular fa-clock"></i> <span>october , 15 2024</span>
+        </div>
+        <div class="image-div">
+          <img class="card-img-top oval-img" src="images/img0.jpg" alt="Card image" style="width:110px ; height: 140px">
+        </div>
+      <div class="content">
+        <h6>Inspire others with your green journey </h6>
+        <p>Contribute now</p>
+      </div> 
+      </div>
+    </div>
+    <div class="card card2" style="width:350px" >
+      <img class="card-img-top main-img" src="images/img1.jpg" alt="Card image cap">
+      <div class="card-img-overlay">
+        <div class="top-content">
+          <h5>Volunteer Your Time</h5>
+          <i class="fa-regular fa-clock"></i> <span>october , 15 2024</span>
+          </div>
+        <div class="image-div">
+          <img class="card-img-top oval-img" src="images/img1.jpg" alt="Card image" style="width:110px ; height: 140px">
+        </div>
+      <div class="content">
+        <h6>Lend a hand, heal the earth</h6>
+        <p>Contribute now</p>
+      </div> 
+      </div>
+    </div>
+    <div class="card card3" style="width:350px" >
+      <img class="card-img-top main-img" src="images/img3.jpg" alt="Card image cap">
+      <div class="card-img-overlay">
+        <div class="top-content">
+        <h5>Donate to a cause</h5>
+        <i class="fa-regular fa-clock"></i> <span>october , 15 2024</span>
+        </div>
+        <div class="image-div">
+          <img class="card-img-top oval-img" src="images/img3.jpg" alt="Card image" style="width:110px ; height: 140px">
+        </div>
+      <div class="content">
+        <h6>Invest in our planet, invest in life</h6>
+        <p>Contribute now</p>
+      </div> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ================================================end data section==================== -->
+<!-- =================================================start seasons section=============================== -->
+ <div class="seasons-sec" id="Seasons">
+  <div class="line"></div>
+    <div class="main-title">
+      <h2>Seasons</h2>
+    </div>
+    <div class="card main-card card1" style="width:80%" >
+      <div class="d-flex justify-content-between  flex-wrap-reverse">
+      <div class="left-side">
+        <div class="content">  
+          <p>Summer</p>
+          <i class="fa-solid fa-calendar-days"></i> <span>Thurs ,June 20th 2024</span>
+        </div>
+        <div class="increase-line"></div>
+        <p class="text"><strong> Summer </strong> , a vibrant season, brings warmth, sunlight, and endless outdoor possibilities. <br>
+          Lush greenery, longer days, and carefree joy characterize this time of year. Whether it's a beach day, <br>
+          a hike in the woods, or a picnic in the park, summer offers opportunities for relaxation, adventure, <br>
+          and connection with nature.</p>
+          <div class="d-flex justify-content-start flex-wrap">
+            <span class="one"><i class="fa-solid fa-temperature-half"></i>temperature</span>
+            <span  class="two"><i class="fa-solid fa-clock"></i>3 months</span>
+            <a href="#" class="three"><i class="fa-solid fa-play"></i>Know More</a>
+          </div>
+      </div>
+      <div class="right-side">
+        <img src="images/summer.jpg" alt="" width="100%" height="100%" class="card-img-top">
+      </div>
+    </div>
+  </div>
+  <div class="card main-card card2" style="width:80%" >
+    <div class="d-flex justify-content-between  flex-wrap">
+    <div class="right-side">
+      <img src="images/winter.jpg" alt="" width="100%" height="100%" class="card-img-top">
+    </div>
+    <div class="left-side">
+      <div class="content">  
+        <p>Winter</p>
+        <i class="fa-solid fa-calendar-days"></i> <span>Satur ,December 21th 2024</span>
+      </div>
+      <div class="increase-line"></div>
+      <p class="text"><strong>Winter</strong>, a season of tranquility, brings cold temperatures, snow-kissed landscapes,<br>
+         and cozy nights. The world transforms into a serene wonderland, adorned with a blanket of snow. <br>
+         It's a time for warm drinks, cozy blankets, and the simple pleasures of winter. <br>
+          Whether it's skiing down snowy slopes, building snowmen, or curling up by a fireplace. </p>
+        <div class="d-flex justify-content-start flex-wrap">
+          <span class="one"><i class="fa-solid fa-temperature-half"></i>temperature</span>
+          <span  class="two"><i class="fa-solid fa-clock"></i>3 months</span>
+          <a href="#" class="three"><i class="fa-solid fa-play"></i>Know More</a>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="card main-card card3" style="width:80%" >
+  <div class="d-flex justify-content-between  flex-wrap-reverse">
+  <div class="left-side">
+    <div class="content">  
+      <p>Spring</p>
+      <i class="fa-solid fa-calendar-days"></i> <span>Tues ,March 19th 2024</span>
+    </div>
+    <div class="increase-line"></div>
+    <p class="text"><strong>Spring</strong>, a season of renewal, brings warmer temperatures, blooming flowers, and fresh starts. <br>
+       As winter fades, nature awakens, painting the world in vibrant colors. It's a time for hope, growth, <br>
+        and outdoor activities. From picnics in the park to hiking in the woods, <br>
+        spring offers a chance to reconnect with nature and embrace the beauty of the season. </p>
+      <div class="d-flex justify-content-start flex-wrap">
+        <span class="one"><i class="fa-solid fa-temperature-half"></i>temperature</span>
+        <span  class="two"><i class="fa-solid fa-clock"></i>3 months</span>
+        <a href="#" class="three"><i class="fa-solid fa-play"></i>Know More</a>
+      </div>
+  </div>
+  <div class="right-side">
+    <img src="images/spring.jpg" alt="" width="100%" height="100%" class="card-img-top">
+  </div>
+</div>
+</div>
+<div class="card main-card card4" style="width:80%" >
+  <div class="d-flex justify-content-between  flex-wrap">
+  <div class="right-side">
+    <img src="images/fall.jpg" alt="" width="100%" height="100%" class="card-img-top">
+  </div>
+  <div class="left-side">
+    <div class="content">  
+      <p>Autumn</p>
+      <i class="fa-solid fa-calendar-days"></i> <span>Sun ,September 22th 2024</span>
+    </div>
+    <div class="increase-line"></div>
+    <p class="text"><strong>Autumn</strong>, a season of transition, brings cooler temperatures, vibrant foliage, and a sense of nostalgia. <br>
+       As the leaves change color and fall to the ground, the world transforms into a breathtaking tapestry of hues. <br>
+       It's a time for cozy sweaters, pumpkin spice, and harvesting the bounty of the earth. <br>
+        Whether it's a scenic drive through the countryside or a bonfire under the stars. </p>
+      <div class="d-flex justify-content-start flex-wrap">
+        <span class="one"><i class="fa-solid fa-temperature-half"></i>temperature</span>
+        <span  class="two"><i class="fa-solid fa-clock"></i>3 months</span>
+        <a href="#" class="three"><i class="fa-solid fa-play"></i>Know More</a>
+      </div>
+  </div>
+</div>
+</div>
+ </div><!-- seasons-sec -->
+<!-- =================================================end seasons section=============================== -->
+<!-- =================================================start join section=============================== -->
+<div class="join-sec" style="width: 80%; margin:auto" id="Join Us">
+  <div class="main-title" >
+    <h2>Join Us</h2>
+  </div>
+<div class="d-flex justify-content-between card-row flex-wrap">
+  <div class="card" style="width:275px; margin:auto" >
+    <p class="text1">Subscribe Now</p>
+    <a href=""><img src="images/twitter.png" alt="" width="190px"></a>
+    <p class="text2">Go To Link</p>
+  </div>
+  <div class="card" style="width:275px; margin:auto" >
+    <p  class="text1">Subscribe Now</p>
+    <a href=""><img src="images/wats.png" alt="" width="110px"></a>
+    <p  class="text2">Go To Link</p>
+  </div>
+  <div class="card" style="width:275px; margin:auto" >
+    <p  class="text1">Subscribe Now</p>
+    <a href=""><img src="images/linked.png" alt="" width="110px"></a>
+    <p class="text2">Go To Link</p>
+  </div>
+  <div class="card" style="width:275px; margin:auto" >
+    <p  class="text1">Subscribe Now</p>
+    <a href=""><img src="images/instagram.png" alt="" width="190px"></a>
+    <p class="text2">Go To Link</p>
+  </div>
+</div>
+</div><!-- join-sec -->
+<!-- =================================================end join section=============================== -->
+<!-- =================================================start footer section=============================== -->
+<div class="footer" id="Contact Us">
+  <div class="container-fluid p-4">
+    <div class="d-flex justify-content-between card-row flex-wrap">
+      <div class="card" style="width:480px; margin:auto" >
+        <div class="d-flex justify-content-center card-column flex-wrap">
+          <span> <img src="images/footer.jpg" alt="" width="100px"> &nbsp;&nbsp;&nbsp;Save The Earth</span>
+          <div class="card" style="width:480px; margin:auto" >
+            <span>Tel : +20 111 2223 8888</span>
+            <span>Address : Egypt, Cairo</span>
+            <span>Mailing Address : Egypt, Cairo</span>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="width:480px; margin:auto" >
+        <div class="d-flex justify-content-center card-column flex-wrap">
+        <span> <img src="images/footer.jpg" alt="" width="100px"> &nbsp;&nbsp;&nbsp;Save The Earth</span>
+        <div class="card" style="width:480px; margin:auto" >
+          <a href="#">Ask Us</a>
+          <a href="#">Let's Work Together</a>
+          <a href="#">Login</a>
+        </div>
+      </div>
+      </div>
+      <div class="card" style="width:480px; margin:auto" >
+        <div class="d-flex justify-content-center card-column flex-wrap">
+          <span> <img src="images/footer.jpg" alt="" width="100px"> &nbsp;&nbsp;&nbsp;Save The Earth</span>
+          <div class="card" style="width:480px; margin:auto" >
+            <span>www.facebook.com/savetheearth</span>
+            <span>www.twitter.com/savetheearth</span>
+            <span>www.instagram.com/savetheearth</span>
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="card" style="width:100%; margin:auto" >
+          <h2>CopyRight &copy; 2024 Zeinab Hassan Othman ,Save The Earth </h2>
+    </div>
+    <div class="card" style="width:100%; margin:auto ; height:70px" >
+    </div>
+  </div>
+</div><!-- footer -->
+<!-- =================================================end footer section=============================== -->
+<!-- accordion -->
+<script>
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+  <script>
+  $(document).ready(function() {
+    $('[data-toggle="popover"]').popover({
+        trigger: 'hover focus',
+    });
+    let alertShown = {}; 
+    $('[data-toggle="popover"]').on('focus', function() {
+        const $this = $(this);
+        const elementId = $this.attr('id');
+        if (!alertShown[elementId]) {
+            if ($this.attr('data-toggle') === 'popover') {
+                $this.attr('data-content', 'Focus Text on ' + elementId);
+            }
+            $this.popover('show');
+            alert('The process was completed successfully');
+            alertShown[elementId] = true;
+        }
+    });
+    $('[data-toggle="popover"]').on('blur', function() {
+        const $this = $(this);
+        $this.attr('data-content', 'Succeeded!!'); 
+        $this.popover('hide');
+    });
+});
+</script>
+</body>
+</html>

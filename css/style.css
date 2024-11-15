@@ -1,0 +1,680 @@
+
+a[title="item2"]{
+    background-color: aqua;
+}
+[title^="footer"]
+{
+    background-color: black;
+}
+
+[title |="footer"]
+{
+    background-color: rgb(137, 12, 12);
+}
+
+[title *="footer"]
+{
+    background-color: rgb(22, 12, 137);
+}
+
+[title ~="footer"]
+{
+    background-color: rgb(137, 133, 12);
+}
+
+[title $="footer"]
+{
+    background-color: rgb(12, 137, 60);
+}
+/* global */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+.line{
+    height: 2px ;
+    width: 100% ;
+    background-color: rgba(0, 168, 36,0.3) ;
+    margin: 15px 0px ;
+}
+.main-text{
+    background-color: rgb(0, 128, 28) ;
+border-radius:  10px;
+box-shadow: 0px 1px 2px rgba(0, 40, 1,0.6);
+color: white;
+text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+::selection {
+    background-color: rgb(0, 96, 19);
+    color:rgb(255, 255, 255);
+  }
+/* ======================================header===================== */
+.header-container{
+position: relative;
+}
+.header{
+    position: fixed;  
+    z-index: 100;
+    width: 100%;
+    }
+.navbar{
+    background-color: rgba(255, 255, 255,0.8);
+}
+.header .target{
+    background-color: rgba(255, 255, 255,0.1) !important; 
+}
+.header .dropdown-item:hover{
+    background-color: rgba(0, 168, 36, 0.3);
+}
+.navbar a{
+    color: rgb(0, 128, 28)!important ;
+}
+.navbar-nav .dropdown-menu a:active{
+    background-color: rgb(0, 128, 28)!important ;
+    color: white !important;
+}
+.navbar .logo-name{
+    padding-right: 15px !important;
+    border-right: 2px solid rgb(0, 128, 28);
+}
+.navbar-toggler{
+    background-color:rgb(0, 128, 28) !important ;
+    border: 2px solid rgb(0, 128, 28) !important;
+}
+.navbar-toggler:hover{
+    background-color:rgb(0, 162, 35) !important ;
+}
+.navbar .dropdown-menu{
+    background-color: rgba(255, 255, 255,0.8);
+}
+.div-dropdown .button-dropdown{
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 128, 28);
+    border: 2px solid rgb(0, 128, 28) !important;
+}
+.dropdown-divider{
+    color: rgb(0, 128, 28) !important;
+}
+nav form  [type="text"]:focus{
+    color:rgb(0, 128, 28) !important ;
+    outline-color: rgb(0, 128, 28) !important ;
+} 
+nav form button{
+    background-color:rgb(0, 128, 28) !important ;
+}
+nav form button:hover{
+    background-color:rgb(0, 162, 35) !important ;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: rgb(0, 128, 28);
+    background-color:rgb(0, 128, 28);
+}
+.custom-control-input:checked~.custom-control-label::before:focus{
+    border-color:rgba(37, 184, 0);
+        outline: 0;
+        box-shadow: 0 0 0 .2rem rgba(37, 184, 0, 0.25);
+}
+#myModal .modal-footer button:hover{
+    background-color:rgb(0, 162, 35) !important ;
+}
+#myModal .form-group #switch1:focus{
+    background-color: rgb(0, 128, 28)!important ;
+}
+/* ==========================================landing======================== */
+.landing{
+    position: relative;
+}
+.carousel-inner .carousel-item img{
+    width : 100% ;
+    height :100vh;
+}
+.modal .modal-header{
+    background-color:rgb(0, 128, 28) !important ;
+    color: white !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0.2);
+    border-color:rgb(0, 128, 28) !important ;
+}
+.modal .modal-header button{
+    background-color:rgb(0, 145, 31) !important ;
+    padding: 3px 9px 5px !important;
+    margin: 0px;
+    border-radius: 5px;
+}
+.form-group .custom-control-input{
+    color:rgb(0, 128, 28) !important ;
+}
+.modal-footer button{
+    background-color:rgb(0, 128, 28) !important ;
+    color: white !important;
+    border-color:rgb(0, 128, 28) !important ;
+}
+.carousel-item .carousel-caption{
+    background-color:rgba(0, 171, 37,0.3)  !important ;
+}
+.landing .icons{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    position: fixed;
+    z-index: 100;
+}
+.landing .icons li i{
+    color:rgb(0, 97, 21) !important ;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.landing .icons li i:hover{
+    color:rgb(0, 164, 36) !important ;
+    cursor: pointer;
+}
+.landing .carousel-item img{
+    object-fit: cover;  /*very very good for the image*/
+}
+/* ================================intro=================================== */
+.intro .intro-container{
+background-color: rgba(0, 168, 36,0.3) ;
+border-radius: 0px 0px 10px 10px;
+box-shadow: 0px 1px 2px rgba(0, 40, 1,0.6);
+}
+.intro .intro-container button{
+    background-color: rgb(0, 128, 28) ;
+}
+.intro .intro-container h4{
+    background: linear-gradient(rgb(153, 249, 0),rgb(0, 168, 36));
+background-clip: text;
+color: transparent;
+}
+.intro .intro-container p{
+    color: rgb(0, 79, 17) ;
+}
+.intro .main-text{
+    height: 170px;
+}
+.intro .main-text h1{
+    padding-top: 35px;
+}
+  #main {
+    margin: 20px 0px 0px 0px;
+  }
+  #main #faq .card {
+    margin-bottom: 30px;
+    border: 0;
+  }
+  #main .accordion .card{ 
+    box-shadow: 5px  5px 15px rgba(0, 94, 3, 0.2) ,
+    -10px  -10px 20px rgba(0, 96, 3, 0.2) ;
+    margin: 0px !important;
+  }
+  #main .accordion .card .card-body{
+    box-shadow: -10px  -10px  20px inset rgba(145, 145, 145, 0.2),
+    10px  10px  20px rgba(145, 145, 145, 0.2);
+  }
+  #main #faq .card .card-header {
+    border: 0;
+    -webkit-box-shadow: 5 5 20px 0 rgba(136, 20, 20, 0.5);
+    box-shadow: 5 5 20px 0 rgba(118, 52, 52, 0.5);
+    border-radius: 2px;
+    padding: 0;
+  }
+  #main #faq .card .card-header .btn-header-link {
+    display: block;
+    text-align: left;
+    color: #222;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    background: linear-gradient(rgb(237, 255, 208), rgb(98, 168, 0));
+    background-clip: text;
+    color: transparent;
+    background-color: rgb(227, 255, 233);
+  }
+  #main #faq .card .card-header .btn-header-link:after {
+    content:"\f106";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+  }
+  #main .container-fluid{
+    padding: 0;
+  }
+  #main #faq .card .card-header .btn-header-link.collapsed {
+    box-shadow: -5px  -5px 15px rgba(0, 40, 1,0.2) !important;
+    background: linear-gradient(rgb(22, 71, 0), rgb(193, 255, 106));
+    background-clip: text;
+    color: transparent;
+    width: 100%;
+    margin: 0 !important;
+    height: 70px!important;
+  }
+  #main #faq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f107";
+    
+  }
+  #main #faq .card .collapsing {
+    background-color: rgb(244, 244, 244);
+    line-height: 30px;
+  }
+  #main #faq .card .collapse {
+    border: 0;
+  }
+  #main #faq .card .collapse.show {
+    background-color: rgb(244, 244, 244);
+    line-height: 30px;
+    color: #222;
+  }
+  #main #faq .card .card-header .btn-header-link:focus{
+    border-color:rgb(48, 153, 0) !important ;
+  }
+/* <!-- ======================================strart form section========================= --> */
+.form-sec .form-sec-container{
+    background-color: rgba(0, 168, 36,0.3) ;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 1px 2px rgba(0, 40, 1,0.6);
+    }
+    .form-sec .form-sec-container button{
+        background-color: rgb(0, 128, 28) ;
+    }
+    .form-sec .form-sec-container  h4{
+        color:rgb(0, 128, 28);
+        margin-bottom: 15px;
+    }
+    .form-sec .form-sec-container  h4 span{
+        color:rgb(0, 195, 42);
+    }
+     /* make the outline of input fields green */
+    .form-control:focus {
+        color: #49574c;
+        background-color: #fff;
+        border-color:rgba(37, 184, 0);
+        outline: 0;
+        box-shadow: 0 0 0 .2rem rgba(37, 184, 0, 0.25);
+    }
+    .popover {
+        margin-top: 80px;
+        margin-left: 0;
+        background-color: rgb(216, 255, 224);
+        border: 1px solid rgb(0, 128, 28);
+        border-radius:0px 90px  90px 90px;
+        color:rgb(0, 128, 28) !important; 
+        text-align: center;
+      }
+      .popover .arrow {
+        display: none;
+    }
+/* <!-- ======================================end form section========================= --> */
+/* <!-- ======================================start image section========================= --> */
+.img .container-fluid{
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-attachment: fixed;
+    position: relative;
+    object-fit: cover; 
+}
+.container-img .main-text h1{
+    background: linear-gradient(rgb(237, 255, 208),rgb(98, 168, 0));
+    background-clip: text;
+    color: transparent;
+}
+/* <!-- ======================================end image section========================= --> */
+/* ============================================start cards section ================= */
+.cards-sec .card-row .card{
+    margin-top: 60px;
+    box-shadow: 0px 10px 15px rgba(0, 40, 1,0.2);
+    padding-bottom: 15px;
+}
+.cards-sec .card-row .card:hover{
+    cursor: pointer;
+}
+.cards-sec .card img{
+    object-fit: cover; 
+}
+.cards-sec .card-row button{
+    background-color:rgb(0, 128, 28) !important ;
+    /* background-color:rgb(0, 13, 128) !important ; beautiful color */
+}
+.cards-sec .card-row .card h4{
+    color: rgb(0, 195, 42);
+}
+.cards-sec .card-row .card p{
+    color: rgb(0, 128, 28);
+ }
+ .cards-sec .card-row .card:after {
+    position: absolute;
+    content: " ";
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 171, 37,0.7) ;
+    opacity: 0.4;
+    transition:1s;
+}
+.cards-sec .card-row .card:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition:1s;
+}
+.cards-sec .card-row .card:before {
+    position: absolute;
+    content: " ";
+    width: 0%;
+    height: 0%;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 171, 37,0.7) ;
+    opacity:0.4;
+    transition:1s;
+}
+.cards-sec .card-row .card:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    transition:1s;
+}
+/* ============================================end cards section ================= */
+/* <!-- ==============================================start second image section===================== --> */
+.img2 .container-fluid{
+    background-image: url(../images/img2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 60px;
+    object-fit: cover; 
+}
+.container-img2 .main-text h1{
+    background: linear-gradient(rgb(237, 255, 208),rgb(98, 168, 0));
+    background-clip: text;
+    color: transparent;
+}
+/* <!-- ==============================================end secon image section===================== --> */
+/* <!-- ================================================start data section==================== --> */
+.data-sec{
+    margin-bottom: 160px;
+}
+.data-sec .card-row .card{
+    margin-top: 60px;
+    /* box-shadow: 0px 10px 15px rgba(0, 40, 1,0.2); */
+    padding-bottom: 15px;
+}
+.data-sec .card{
+    border-radius: 20px;
+    /* border: 2px solid rgb(0, 122, 27) ; */
+    color: white;
+}
+.data-sec .card  .oval-img{
+    border-radius: 50%;
+    border: 2px solid rgb(0, 122, 27) ;
+    margin-top: 200px;
+    object-fit: cover; 
+}
+.data-sec .card .card-img-overlay{
+    padding: 25px 25px 0px 25px;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    object-fit: cover; 
+}
+.data-sec .card .main-img{
+    height: 498px;
+    border-radius: 20px;
+    object-fit: cover; 
+}
+.data-sec .card .content{
+    line-height: 0.8;
+}
+.data-sec .card1 {
+    position: relative;
+    background-image: url(../images/img0.jpg);
+    background-size: cover;
+}
+.data-sec .card2 {
+    position: relative;
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+}
+.data-sec .card3 {
+    position: relative;
+    background-image: url(../images/img3.jpg);
+    background-size: cover;
+}
+.data-sec .card  .overlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.data-sec .card-img-overlay:hover{
+    background-color:rgba(0, 185, 3, 0.3);
+}
+.data-sec .top-content{
+    transition: 0.5s;
+}
+.data-sec .card:hover .top-content{
+        margin-top: 30px;
+        margin-bottom: -30px;
+        transition: 0.5s;
+}
+/* this will make a beautiful view */
+/* .data-sec .card-img-overlay:hover {
+    cursor: pointer;
+    }
+    .data-sec .card-img-overlay{
+        transition: 0.5s;
+    }
+    .data-sec .card-img-overlay:hover{
+        transform: scale(0.9,0.9);
+    } */
+/* end this will make a beautiful view */
+.data-sec .card:hover {
+cursor: pointer;
+}
+.data-sec .card{
+    transition: 0.5s;
+}
+.data-sec .card:hover{
+    transform: scale(0.9,0.9);
+}
+/* <!-- ================================================end data section==================== --> */
+/* <!-- =================================================start seasons section=============================== --> */
+.seasons-sec .main-title{
+    text-align: center;
+    margin: 35px;
+}
+.seasons-sec .main-title h2{
+    background: linear-gradient(rgb(153, 249, 0), rgb(0, 168, 36));
+    background-clip: text;
+    color: transparent;
+}
+.seasons-sec .main-card{
+    background-color:rgba(134, 165, 134, 0.3);
+    box-shadow: -5px  -5px 15px rgba(0, 40, 1,0.2),
+    10px  10px 20px rgba(0, 40, 1,0.2);
+    margin:auto;
+    
+}
+.seasons-sec .left-side .content p {
+    color: rgba(0, 185, 3);
+    font-size: 30px;
+    margin: 0;
+}
+.seasons-sec .left-side .content i{
+    color: rgb(0, 128, 28);
+}
+.seasons-sec .left-side a , 
+.seasons-sec .left-side .one ,
+.seasons-sec .left-side .two{
+    background-color:rgba(0, 129, 2, 0.3);
+    color: rgb(0, 128, 28);
+    margin-right: 5px;
+    margin-top: 5px;
+    padding:3px 8px;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+.seasons-sec .left-side .one:hover ,.seasons-sec .left-side .two:hover {
+    transition: 0.8s;
+    background-color:rgba(0, 129, 2, 0.6);
+    /* color: rgb(79, 219, 110); */
+    color: rgb(8, 71, 22);
+    cursor: default;
+}
+.seasons-sec .left-side .three:hover{
+    transition: 0.8s;
+    background-color:rgb(0, 225, 4);
+    color: white;
+}
+.seasons-sec .main-card .left-side{
+    padding: 25px;
+    color: rgb(0, 63, 1);
+}
+.seasons-sec .left-side .increase-line{
+    height: 5px;
+    width:15px;
+    border-radius: 20px;
+    margin: 10px 0px 10px;
+    background-color:rgba(0, 185, 3);
+    transition:  0.5s;
+    /* very important note ========> we use transition in the prestate and poststate with the same value to be smoothy */
+}
+.seasons-sec .main-card:hover .increase-line{
+    width: 130px;
+    transition:  0.5s;
+}
+.seasons-sec .main-card .left-side .text{
+    padding-bottom: 50px !important;
+}
+.seasons-sec .main-card .right-side{
+    height:350px;
+    width: 400px;
+    border-radius:0px 10px 10px 0px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%,10% 100%);
+}
+.seasons-sec .main-card .right-side img{
+    object-fit: cover;
+    transition: 0.5s;
+}
+.seasons-sec .main-card:hover .right-side img{
+    transform: scale(1.1,1.1);
+}
+@media (max-width: 1290px) {
+    .seasons-sec .main-card .right-side{
+    border-radius:0px ;
+    clip-path: polygon(0 0, 100% 0, 100% 100%,0 100%);
+    width: 100%;
+    /* height: 10%; */
+    }
+}
+.seasons-sec .card2,.seasons-sec .card3,.seasons-sec .card4{
+    margin-top: 40px;
+}
+.seasons-sec .card2 .right-side ,.seasons-sec .card4 .right-side{
+    height:350px;
+    width: 400px;
+    border-radius:0px 10px 10px 0px;
+    clip-path: polygon(0 0, 90% 0, 80% 100%,0% 100%);
+}
+@media (max-width: 1290px) {
+    .seasons-sec .card2 .right-side, .seasons-sec .card4 .right-side{
+    border-radius:0px ;
+    clip-path: polygon(0 0, 100% 0, 100% 100%,0 100%);
+    width: 100%;
+    
+    }
+  }
+  @media (max-width:767px) {
+    .seasons-sec .card{
+    height: 580px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s;
+    }
+    .seasons-sec .card:hover{
+       transition: 0.5s;
+       height: 930px;
+        }
+  }
+/* <!-- =================================================end seasons section=============================== --> */
+/* <!-- =================================================start join section=============================== --> */
+.join-sec .main-title{
+    text-align: center;
+}
+.join-sec .main-title h2{
+    background: linear-gradient(rgb(153, 249, 0), rgb(0, 168, 36));
+    background-clip: text;
+    color: transparent;
+    margin-top: 35px;
+}
+.join-sec .card{
+    box-shadow: -5px  -5px 15px rgba(0, 94, 3, 0.2),
+    10px  10px 20px rgba(0, 96, 3, 0.2);
+    margin-top: 35px !important;
+}
+.join-sec .card{
+    text-align: center;
+}
+.join-sec .card p{
+    color: rgba(0, 185, 3);
+}
+.join-sec .card .text1{
+  font-size: 30px;
+}
+.join-sec .card .text2{
+    font-size: 20px;
+}
+/* <!-- =================================================end join section=============================== --> */
+/* <!-- =================================================start footer section=============================== --> */
+.footer .container-fluid{
+    margin-top: 20px;
+    background-color: rgb(0, 128, 28) !important;
+}
+.footer .container-fluid .card{
+    background-color: rgb(0, 128, 28) !important;
+    border-top: 3px solid rgba(0, 185, 3);
+    border-bottom:none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 20px 0px;
+    text-align: center;
+    margin-top: 0px !important;
+    width: 100%;
+    line-height:2.5;
+}
+@media (max-width: 1290px) {
+    .footer .container-fluid .card{
+        margin-top: 20px !important;
+    }
+}
+.footer .container-fluid .card img{
+    box-shadow: -5px  -5px 15px rgba(255, 255, 255,0.9),
+    5px  5px 20px rgba(255, 255, 255,0.9);
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px !important;
+}
+.footer .container-fluid .card h2{
+    background: linear-gradient(rgb(237, 255, 208), rgb(98, 168, 0));
+    background-clip: text;
+    color: transparent;
+}
+.footer .container-fluid .card span{
+    color:rgba(255, 255, 255,0.9);
+    text-shadow: 1px 0px 5px rgba(255, 255, 255,0.9);
+}
+.footer .container-fluid .card a{
+    color:rgb(37, 63, 0);
+}
+.footer .container-fluid .card a:hover{
+    color:rgb(120, 205, 0);
+}
+/* <!-- =================================================end footer section=============================== --> */
+
